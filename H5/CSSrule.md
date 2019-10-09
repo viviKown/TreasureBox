@@ -2,7 +2,7 @@
 
 由两个主要的部分构成：选择器（实际上就是HTML标签，元素中设置"id" 和 "class"选择器。），以及一条或多条声明:
 
-<img src="C:\Users\xiaohong1.guo\AppData\Roaming\Typora\typora-user-images\1569487185082.png" alt="1569487185082" style="zoom:70%;" />
+![Alt text](https://github.com/viviKown/TreasureBox/blob/master/img/css_struct.png)
 
 样例：
 
