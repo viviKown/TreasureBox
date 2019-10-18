@@ -63,6 +63,12 @@ $ git add filename/ if all file use .
 $ git commit -m "log message"
 $ git push origin master
 ```
+##### 注意
+工程中含有中文命名的文件是不能被add 成功的，原因git默认是不能识别中文的。需要在终端修改能识别中文。
+```
+$ git config --global core.quotepath false
+```
+core.quotepath设为false的话，就不会对0x80以上的字符进行quote，中文显示正常。，之后可以正常的git add 了，挨个add之后即可，最后commit之后再push。
 #### 撤销add操作
 如果发生错误可以撤销add操作
 ```
