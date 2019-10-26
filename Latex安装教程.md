@@ -1,5 +1,5 @@
-### latex有很多编译器，当网友推荐千万不要装CTeX套装！容易出问题
-## 推荐TeX Live +Texstudio
+### latex有很多编译器，网友推荐千万不要装CTeX套装！容易出问题
+## 推荐TeX Live +Texstudio  中、英语言皆可编写
 
 TeX Live属于比较完善的LaTeX编译器
 Texstudio是一款很好用的Latex编辑器
