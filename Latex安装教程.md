@@ -5,3 +5,4 @@ TeX Live属于比较完善的LaTeX编译器
 Texstudio是一款很好用的Latex编辑器
 
 ## 有用的安装教程：https://blog.csdn.net/weixin_44109978/article/details/93629870
+https://blog.csdn.net/go_clever_boy/article/details/102760496
