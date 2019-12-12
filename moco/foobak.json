@@ -1,0 +1,96 @@
+[{
+		"description": "创建订单moco",
+		"request": {
+			"uri": "/i-tvbin/open/create_order",
+			"method": "post"
+		},
+		"response": {
+			"status": 200,
+			"json": {
+			   "data" : {
+				  "ext_reserved" : "...",
+				  "order_confirmtime" : 0,
+				  "order_createtime" : 1574767305,
+				  "order_id" : "20191126192165ACADBB",
+				  "order_price" : 0,
+				  "order_status" : 0,
+				  "service" : [ "t_basic_1d" ],
+				  "vippkg" : "t_basic_1d",
+				  "vuid" : "1815056784",
+				  "info" : "moco服务器返回信息-----create_order"
+			   },
+			   "result" : {
+				  "code" : 0,
+				  "costtime" : 54,
+				  "msg" : "",
+				  "ret" : 0
+			   }
+			}
+		}
+	},
+	{
+		"description": "获取vuid—token-moco",
+		"request": {
+			"uri": "/i-tvbin/open/get_token",
+			"method": "get"
+		},
+		"response": {
+			"status": 200,
+			"json": {
+				"result":{
+					"code":0,
+					"costtime":0,
+					"msg":"ok",
+					"ret":0,
+					"info" : "moco服务器返回信息-----get_token"
+				},
+				"data":{
+					"access_token":"SZWAlTx9DqDsaBFcIUy6GcvmGiQSPGC0Us0sX1BcLVLS3+90gAdyn8teHsG+vdduDoJIajhsOJqQgCw57cjQQhcsd4CTZGBv",
+					"expire_in":1574862268
+				}
+			}
+		}
+	},
+	{
+		"description": "获取vuid—vuid-moco",
+		"request": {
+			"uri": "/i-tvbin/open/get_vuid",
+			"method": "get"
+		},
+		"response": {
+			"status": 200,
+			"json": {
+				"result":{
+					"code":0,
+					"costtime":0,
+					"msg":"ok",
+					"ret":0,
+					"info" : "moco服务器返回信息-----get_vuid"
+				},
+				"data":{
+					"vuid":1847050885,
+					"vtoken":"666F2723F13327041EDB017D29473B1C"
+				}
+			}
+		}
+	},
+	{
+		"description": "获取vuid—bind-moco",
+		"request": {
+			"uri": "/ktopen/tob_auth/bind",
+			"method": "get"
+		},
+		"response": {
+			"status": 200,
+			"json": {
+				"result":{
+					"code":0,
+					"costtime":0,
+					"msg":"ok",
+					"ret":0,
+					"info" : "moco服务器返回信息-----bind"
+				}
+			}
+		}
+	}
+]
