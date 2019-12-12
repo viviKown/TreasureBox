@@ -32,7 +32,7 @@ java -jar ./moco-runner-0.11.0-standalone.jar 协议 -p 端口号 -c 文件名.j
     "response": {
         "text": "这是一个有参数的get request"
     }
-}，
+},
 {
     "description": "模拟一个有参数的get请求",
     "request": {
