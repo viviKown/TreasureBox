@@ -1,7 +1,9 @@
 ####  nmon安装
 
 wget http://sourceforge.net/projects/nmon/files/nmon_linux_14i.tar.gz
+
 tar zxvf nmon_linux_14i.tar.gz
+
 chmod 777 nmon_x86_64_sles11
 
 
