@@ -25,7 +25,7 @@ File->new->project->Spring initializr->Next 依次输入maven坐标信息，Depe
 spring.datasource.driver-class-name=com.mysql.jdbc.Driver
 spring.datasource.url=jdbc:mysql://127.0.0.1:3306/springtest?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
 spring.datasource.username=root
-spring.datasource.password=root
+spring.datasource.password=xxx
 
 # 服务端口配置
 server.port=8080
@@ -148,7 +148,7 @@ mail.fromMail.addr=xxx@163.com
 jdbc.driverClass=com.mysql.jdbc.Driver
 jdbc.connectionURL= jdbc:mysql://127.0.0.1:3306/autotest?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
 jdbc.userId=root
-jdbc.password=root
+jdbc.password=xxx
 ```
 
 ## Generator执行
