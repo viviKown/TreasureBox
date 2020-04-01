@@ -37,12 +37,12 @@ spring.http.encoding.charset=UTF-8
 #邮箱服务器地址
 spring.mail.host=smtp.163.com
 #发件人地址
-spring.mail.username=guoxiaohong1992@163.com
+spring.mail.username=xxx@163.com
 #邮箱的授权码
 spring.mail.password=xxxx
 spring.mail.default-encoding=utf-8
 #这个是非必须，我自己自定义的，可以便于程序中取值
-mail.fromMail.addr=guoxiaohong1992@163.com
+mail.fromMail.addr=xxx@163.com
 ```
 
 ## 自动生成代码插件与文件配置
