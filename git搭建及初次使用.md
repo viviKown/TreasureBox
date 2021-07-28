@@ -49,7 +49,7 @@ $ git init
 $ git clone github URL
 
 eg.
-$ git clone https://github.com/viviKown/TreasureBox.git
+$ git clone https://github.com/xxx/TreasureBox.git
 ```
 #### 查看分支状态
 ```
